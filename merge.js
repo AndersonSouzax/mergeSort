@@ -13,8 +13,6 @@ let insertionSort = (inputArray) => {
                 while(index > 0 && outputArray[index - 1] >= e){
                     outputArray[index] = outputArray[index - 1];
                     index--;
-
-                    debugger;
                 }
             }
 
